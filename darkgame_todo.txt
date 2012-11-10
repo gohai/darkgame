@@ -1,0 +1,19 @@
+Make new stencil
+Test and compare both fully assembled units
+	"Fall2" is overheating?
+	Flashing Sparkfun's firmware doesn't work on "Fall2"
+ep 0x82 - rounding interval to 1024 microframes, ep desc says 2040 microframes
+
+-- Rev D
+Lines slanted?
+Per-motor LEDs (optional)
+Resettable fuse (optional)
+Decals
+
+-- Production
+	Crystal orientation shouldn't matter
+
+-- Research
+http://www.siliconfarmers.com/smtmanga/
+http://laforge.gnumonks.org/weblog/2012/05/21/#20120521-open_registry_for_usb_and_mac_addrs (USB IDs)
+https://github.com/bluebie/micronucleus-t85

@@ -1,0 +1,5 @@
+In Eagle, select to display only the Dimension (20) and tCream (31) layers. Then: File > Print. Set to print to a PDF file, and check the options for Black and Solid.
+
+Open the resulting file in Illustrator and get rid of clipping masks and redundant grouping.
+
+We're using 4 mil thick Mylar as the material for our stencil. This can be easily obtained as comic book bags (e.g. "BCW Silver Mylar Comic Book Bags 4 Mil").
