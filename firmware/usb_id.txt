@@ -1,0 +1,2 @@
+Vendor: 0x1d50 (Openmoko, Inc.)
+Product: 0x6053 (Darkgame Controller)
