@@ -1,5 +1,0 @@
-The USB cables we use have the following colors:
-VCC: red
-GND: black
-D-: white
-D+: green

@@ -1,15 +1,10 @@
-Try out heat gun
-Buy Acetate (from Blick or Utrecht)
-Debug second Rev C board
-Debug channel 2/6 not working
 Why does avrdude still require sudo?
-Improve stencils (Ladyada?)
+Debug channel 2/6 not working
+Try out heat gun
 ep 0x82 - rounding interval to 1024 microframes, ep desc says 2040 microframes
-Source longer USB cables
 Make line endings consistent (bom.txt)
 
 -- Rev D
-Serial number hidden by RJ-45 jack
 Lines slanted?
 Per-motor LEDs (optional)
 Resettable fuse (optional)

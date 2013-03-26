@@ -7,4 +7,4 @@
 1x 1uF Capacitor SMD ceramic 0805 (Digikey: 445-1589-1-ND)
 1x 10uF Capacitor SMD tantal 1206/3216 metric (Digikey: 493-2351-1-ND)
 1x Crystal SMD 16MHz (Digikey: 644-1194-1-ND)
-1x USB A Male to Cable (Digikey: Q363-ND, change)
+1x USB A Male to Cable (Digikey: Q363-ND, change to longer & not blunt-cut)

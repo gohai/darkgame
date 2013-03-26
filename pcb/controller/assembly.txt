@@ -1,0 +1,7 @@
+Orientation matters for the following parts: ATMEGA8U2, Darlington array, 10uF Capacitor SMD tantal 1206/3216 metric; it does not matter for the Crystal.
+
+The USB cables we use have the following colors:
+VCC: red
+GND: black
+D-: white
+D+: green

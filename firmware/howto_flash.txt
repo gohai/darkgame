@@ -9,4 +9,4 @@ avrdude -c usbasp -p m8u2 -U lock:w:0x0f:m
 avrdude -c usbasp -p m8u2 -U lfuse:w:0xff:m -U hfuse:w:0xd9:m -U efuse:w:0xf4:m
 
 Program firmware
-avrdude -c usbasp -p m8u2 -U flash:w:demo.hex
+avrdude -c usbasp -p m8u2 -U flash:w:Darkgame.hex
