@@ -110,8 +110,8 @@
 <text x="19.05" y="13.97" size="1.016" layer="21" font="vector" rot="R180">1/5</text>
 <text x="19.05" y="11.43" size="1.016" layer="21" font="vector" rot="R180">2/6</text>
 <text x="19.05" y="8.89" size="1.016" layer="21" font="vector" rot="R180">3/7</text>
-<text x="19.05" y="6.35" size="1.016" layer="21" font="vector" rot="R180">4/8</text>
-<text x="16.51" y="1.27" size="1.016" layer="21" font="vector" ratio="18">Darkgame 2012 REV C</text>
+<text x="19.05" y="6.35" size="1.016" layer="21" font="vector" rot="R180">4  </text>
+<text x="16.51" y="1.27" size="1.016" layer="21" font="vector" ratio="18">Darkgame 2013 REV D</text>
 <hole x="2.54" y="2.54" drill="3.6576"/>
 <hole x="38.1" y="2.54" drill="3.6576"/>
 <hole x="20.32" y="21.59" drill="3.6576"/>

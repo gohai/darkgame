@@ -1,7 +1,9 @@
+*.b#*
 *.d
 *.eep
 *.elf
 *.lss
 *.map
 *.o
+*.s#*
 *.sym

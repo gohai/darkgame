@@ -123,7 +123,7 @@
 <hole x="20.32" y="32.47" drill="3.6576"/>
 <hole x="2.54" y="13.42" drill="3.6576"/>
 <hole x="38.1" y="13.42" drill="3.6576"/>
-<text x="17.78" y="29.464" size="0.8128" layer="21" font="vector" ratio="18">Motor</text>
+<text x="17.78" y="29.464" size="0.8128" layer="21" font="vector" ratio="18">Motor 8</text>
 <text x="17.78" y="23.876" size="0.8128" layer="21" font="vector" ratio="18">USB</text>
 <text x="20.066" y="22.86" size="0.6096" layer="21" font="vector" ratio="18" align="bottom-right">VCC</text>
 <text x="20.828" y="22.86" size="0.6096" layer="21" font="vector" ratio="18">GND</text>
