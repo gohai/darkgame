@@ -3,3 +3,5 @@ In Eagle, select to display only the tCream (31) layer. Then: File > Print. Set 
 Open the resulting file in Illustrator and get rid of clipping masks and redundant grouping.
 
 Cut the stencil on a regular vinyl foil (used 160gf force).
+
+Use the wave2 setting for the reflow oven.

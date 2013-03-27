@@ -1,18 +1,9 @@
-Why does avrdude still require sudo?
-Debug channel 2/6 not working
 Try out heat gun
+Implement firmware
 ep 0x82 - rounding interval to 1024 microframes, ep desc says 2040 microframes
-Make line endings consistent (bom.txt)
 
 -- Rev D
 Lines slanted?
 Per-motor LEDs (optional)
 Resettable fuse (optional)
 Decals
-
--- Production
-	Crystal orientation shouldn't matter
-
--- Research
-http://www.siliconfarmers.com/smtmanga/
-https://github.com/bluebie/micronucleus-t85
