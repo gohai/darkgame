@@ -1,7 +1,7 @@
-Where are the RJ-45 jacks?
 Try out heat gun
 Implement firmware
 ep 0x82 - rounding interval to 1024 microframes, ep desc says 2040 microframes
+Firmware: read out unique serial
 
 -- Rev D
 Lines slanted?
