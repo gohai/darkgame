@@ -1,5 +1,5 @@
 Try out heat gun
-Implement firmware
+Implement firmware (see http://www.atmel.com/Images/doc8201.pdf)
 ep 0x82 - rounding interval to 1024 microframes, ep desc says 2040 microframes
 Firmware: read out unique serial
 
