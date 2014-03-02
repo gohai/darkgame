@@ -1,5 +1,7 @@
 Try out heat gun
 Implement firmware (see http://www.atmel.com/Images/doc8201.pdf)
+Evaluate HID communication (http://msdn.microsoft.com/en-us/library/system.windows.forms.sendkeys.send.aspx, SendKeys.Send("{NUMLOCK}"), SendKeys.Send("{CAPSLOCK}"))
+Evaluate https://circuithub.com/
 ep 0x82 - rounding interval to 1024 microframes, ep desc says 2040 microframes
 Firmware: read out unique serial
 
