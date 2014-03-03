@@ -18,7 +18,8 @@ static RingBuffer_t USBOut_Buffer;
 // Underlying data buffer for USBOut_Buffer, where the stored bytes are located
 static uint8_t      USBOut_Buffer_Data[128];
 
-static uint8_t		port_mapping[] = { 4, 5, 6, 7, 3, 2, 1, 0 };
+static uint8_t		port_mapping[] = { 5, 4, 6, 7, 0, 1, 2, 3 };
+uint8_t			state = 0;
 
 // LUFA CDC Class driver interface configuration and state information
 USB_ClassInfo_CDC_Device_t VirtualSerial_CDC_Interface =
@@ -65,15 +66,21 @@ int main(void)
 
 			// Read bytes from the USB OUT endpoint into the USART transmit buffer
 			if (!(ReceivedByte < 0)) {
-				// for each bit
-				for (uint8_t bit=0; bit < 8; bit++) {
-					// get the corresponding port
-					if (port_mapping[bit] < 4) {
-						// enable/disable the port depending on the bit value of the received byte
-						// the +4 offset is here because we're only manipulating the higher 4 bits of the port
-						PORTB = (PORTB & ~(1 << (port_mapping[bit]+4))) | (((ReceivedByte >> bit) & 1) << (port_mapping[bit]+4));
-					} else {
-						PORTC = (PORTC & ~(1 << port_mapping[bit])) | (((ReceivedByte >> bit) & 1) << port_mapping[bit]);
+				if (state == 0 && ReceivedByte == 'D') {
+					state = 1;
+				} else if (state == 1 && ReceivedByte == 'G') {
+					state = 2;
+				} else if (state == 2) {
+					// for each bit
+					for (uint8_t bit=0; bit < 8; bit++) {
+						// get the corresponding port
+						if (port_mapping[bit] < 4) {
+							// enable/disable the port depending on the bit value of the received byte
+							// the +4 offset is here because we're only manipulating the higher 4 bits of the port
+							PORTB = (PORTB & ~(1 << (port_mapping[bit]+4))) | (((ReceivedByte >> bit) & 1) << (port_mapping[bit]+4));
+						} else {
+							PORTC = (PORTC & ~(1 << port_mapping[bit])) | (((ReceivedByte >> bit) & 1) << port_mapping[bit]);
+						}
 					}
 				}
 				RingBuffer_Insert(&USBIn_Buffer, ReceivedByte);
