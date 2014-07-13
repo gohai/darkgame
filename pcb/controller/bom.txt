@@ -8,5 +8,10 @@
 1x 10uF Capacitor SMD tantal 1206/3216 metric (Digikey: 493-2351-1-ND)
 1x Crystal SMD 16MHz (Digikey: 644-1194-1-ND)
 1x USB A Male to Cable (Digikey: Q363-ND, change to longer & not blunt-cut)
-2x Ethernet jacks ("SKU 524453 AMP/TYCO ELECTR")
 1x Vibration motor
+
+2x Ethernet jacks ("SKU 524453 AMP/TYCO ELECTR")
+or
+1x 7x2 Angled Male Headers (S2111EC-07-ND)
+or
+1x 8x2 Angled Male Headers (609-3337-ND)
